@@ -430,14 +430,6 @@ textarea {
   padding-right: 32px;
 }
 
-.footer__address {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--primary-white-color);
-}
-
 .img {
   width: 270px;
   height: 120px;
@@ -602,6 +594,14 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer__address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+
 .footer__email {
   margin-bottom: 9px;
 }
@@ -705,6 +705,10 @@ button {
 
 .layout__sect {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.layout__sect--no-padding-top {
   padding-bottom: 94px;
 }
 
