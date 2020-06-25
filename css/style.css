@@ -722,6 +722,9 @@ button {
 .layout__sect {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.layout__sect.portfolio {
   border: 1px solid #ececec;
 }
 
